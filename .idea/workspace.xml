@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +175,7 @@
       <workItem from="1601102806654" duration="654000" />
       <workItem from="1601176782830" duration="2660000" />
       <workItem from="1601182285188" duration="5645000" />
-      <workItem from="1601384445825" duration="2858000" />
+      <workItem from="1601384445825" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601386405649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="パスワードリセットリクエスト実装">
+      <created>1601387500595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601387500595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +238,7 @@
     <MESSAGE value="会員登録　デザイン修正" />
     <MESSAGE value="日本語対応&#10;モデルのフォルダ変更" />
     <MESSAGE value="ログイン実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="ログイン実装" />
+    <MESSAGE value="パスワードリセットリクエスト実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="パスワードリセットリクエスト実装" />
   </component>
 </project>
