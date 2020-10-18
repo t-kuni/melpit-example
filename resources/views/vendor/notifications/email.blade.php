@@ -3,11 +3,7 @@
 @if (! empty($greeting))
 # {{ $greeting }}
 @else
-@if ($level === 'error')
-# @lang('Whoops!')
-@else
-# @lang('Hello!')
-@endif
+{{ config('app.name') }}をご利用頂きありがとうございます。
 @endif
 
 {{-- Intro Lines --}}
@@ -43,7 +39,6 @@
 @if (! empty($salutation))
 {{ $salutation }}
 @else
-@lang('Regards'),<br>
 {{ config('app.name') }}
 @endif
 

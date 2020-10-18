@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/ja.json" afterDir="false" />
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="プロフィール保存処理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/notifications/email.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
