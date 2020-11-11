@@ -20,6 +20,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('items/{item}', function () {return "商品詳細";})->name('item');
+
+Route::middleware('auth')
+    ->group(function () {
+        Route::get('sell', 'SellController@showSellForm')->name('sell');
+        Route::post('sell', 'SellController@sellItem')->name('sell');
+    });
 
 Route::prefix('mypage')
     ->namespace('MyPage')
@@ -27,4 +34,6 @@ Route::prefix('mypage')
     ->group(function () {
         Route::get('edit-profile', 'ProfileController@showProfileEditForm')->name('mypage.edit-profile');
         Route::post('edit-profile', 'ProfileController@editProfile')->name('mypage.edit-profile');
+
+        Route::get('sold-items', 'SoldItemsController@showSoldItems')->name('mypage.sold-items');
     });
