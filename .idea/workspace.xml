@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="プロフィール保存処理">
-      <change afterPath="$PROJECT_DIR$/resources/views/mypage/sold_items.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sell.blade.php" afterDir="false" />
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/melpit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/melpit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PrimaryCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PrimaryCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SecondaryCategory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SecondaryCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_29_230721_create_app_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_29_230721_create_app_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SellController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SellController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +134,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i2Pe9iNjesX1wKr7FdViV39FzS" />
@@ -194,6 +193,8 @@
       <workItem from="1601182285188" duration="5645000" />
       <workItem from="1601384445825" duration="6428000" />
       <workItem from="1601560407879" duration="7225000" />
+      <workItem from="1605318295553" duration="13888000" />
+      <workItem from="1605527886940" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
