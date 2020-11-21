@@ -43,6 +43,15 @@ class ItemsController extends Controller
             ->with('items', $items);
     }
 
+    private function escape(string $value, string $char = '\\')
+    {
+        return str_replace(
+            [$char, '%', '_'],
+            [$char . $char, $char . '%', $char . '_'],
+            $value
+        );
+    }
+
     public function showItemDetail(Item $item)
     {
         return view('items.item_detail')
