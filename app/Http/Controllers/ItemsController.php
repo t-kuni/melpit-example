@@ -9,7 +9,33 @@ class ItemsController extends Controller
 {
     public function showItems(Request $request)
     {
-        $items = Item::orderByRaw( "FIELD(state, '" . Item::STATE_SELLING . "', '" . Item::STATE_BOUGHT . "')" )
+        $query = Item::query();
+
+        // カテゴリで絞り込み
+        if ($request->filled('category')) {
+            list($categoryType, $categoryID) = explode(':', $request->input('category'));
+
+            if ($categoryType === 'primary') {
+                $query->whereHas('secondaryCategory.primaryCategory', function ($query) use ($categoryID) {
+                    $query->where('id', $categoryID);
+                });
+            } else if ($categoryType === 'secondary') {
+                $query->whereHas('secondaryCategory', function ($query) use ($categoryID) {
+                    $query->where('id', $categoryID);
+                });
+            }
+        }
+
+        // キーワードで絞り込み
+        if ($request->filled('keyword')) {
+            $keyword = '%' . $this->escape($request->input('keyword')) . '%';
+            $query->where(function ($query) use ($keyword) {
+                $query->where('name', 'LIKE', $keyword);
+                $query->orWhere('description', 'LIKE', $keyword);
+            });
+        }
+
+        $items = $query->orderByRaw( "FIELD(state, '" . Item::STATE_SELLING . "', '" . Item::STATE_BOUGHT . "')" )
             ->orderBy('id', 'DESC')
             ->paginate(52);
 

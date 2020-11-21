@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/items/item_detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/items/item_detail_panel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605927006055</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="商品詳細画面実装">
+      <created>1605939907018</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605939907018</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +322,7 @@
     <MESSAGE value="プロフィール編集画面表示処理実装" />
     <MESSAGE value="プロフィール保存処理" />
     <MESSAGE value="商品一覧画面実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品一覧画面実装" />
+    <MESSAGE value="商品詳細画面実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品詳細画面実装" />
   </component>
 </project>
