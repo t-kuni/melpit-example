@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/Header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605941531542</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="商品検索の初期値設定処理　実装">
+      <created>1605948189181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605948189181</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +336,7 @@
     <MESSAGE value="商品一覧画面実装" />
     <MESSAGE value="商品詳細画面実装" />
     <MESSAGE value="商品検索実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品検索実装" />
+    <MESSAGE value="商品検索の初期値設定処理　実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品検索の初期値設定処理　実装" />
   </component>
 </project>
