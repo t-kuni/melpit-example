@@ -197,7 +197,7 @@
       <workItem from="1605318295553" duration="13888000" />
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
-      <workItem from="1606921358568" duration="1979000" />
+      <workItem from="1606921358568" duration="5183000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606541402696</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="冗長な記述を削除">
+      <created>1607001801880</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607001801880</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +379,7 @@
     <MESSAGE value="ヘッダーにリンク追加" />
     <MESSAGE value="アクセサの実装漏れ" />
     <MESSAGE value="絵文字追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="絵文字追加" />
+    <MESSAGE value="冗長な記述を削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="冗長な記述を削除" />
   </component>
 </project>

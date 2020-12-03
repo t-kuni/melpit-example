@@ -41,11 +41,11 @@ class ItemsController extends Controller
             ->with('items', $items);
     }
 
-    private function escape(string $value, string $char = '\\')
+    private function escape(string $value)
     {
         return str_replace(
-            [$char, '%', '_'],
-            [$char . $char, $char . '%', $char . '_'],
+            ['\\', '%', '_'],
+            ['\\\\', '\\%', '\\_'],
             $value
         );
     }
