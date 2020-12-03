@@ -16,13 +16,11 @@ class ItemsController extends Controller
             list($categoryType, $categoryID) = explode(':', $request->input('category'));
 
             if ($categoryType === 'primary') {
-                $query->whereHas('secondaryCategory.primaryCategory', function ($query) use ($categoryID) {
-                    $query->where('id', $categoryID);
+                $query->whereHas('secondaryCategory', function ($query) use ($categoryID) {
+                    $query->where('primary_category_id', $categoryID);
                 });
             } else if ($categoryType === 'secondary') {
-                $query->whereHas('secondaryCategory', function ($query) use ($categoryID) {
-                    $query->where('id', $categoryID);
-                });
+                $query->where('secondary_category_id', $categoryID);
             }
         }
 
