@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/melpit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/melpit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mypage/bought_items.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_29_230721_create_app_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_29_230721_create_app_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,7 +144,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/mypage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -159,9 +153,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\mypage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\config" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\items" />
-      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\mypage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers\MyPage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views" />
     </key>
@@ -205,7 +199,7 @@
       <workItem from="1605318295553" duration="13888000" />
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
-      <workItem from="1606921358568" duration="15694000" />
+      <workItem from="1606921358568" duration="17089000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -368,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607143696056</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="決済処理実装">
+      <created>1607148858638</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607148858639</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +423,7 @@
     <MESSAGE value="エスケープ処理を簡易化" />
     <MESSAGE value="購入画面作成" />
     <MESSAGE value="決済フォーム実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="決済フォーム実装" />
+    <MESSAGE value="決済処理実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="決済処理実装" />
   </component>
 </project>
