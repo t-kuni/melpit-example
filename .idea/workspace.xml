@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="絵文字追加">
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="エスケープ処理を簡易化">
+      <change afterPath="$PROJECT_DIR$/resources/views/items/item_buy_form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,15 +151,15 @@
     <property name="vcs.patch.to.clipboard" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\items" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\mypage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers\MyPage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +198,7 @@
       <workItem from="1605318295553" duration="13888000" />
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
-      <workItem from="1606921358568" duration="5183000" />
+      <workItem from="1606921358568" duration="9795000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -339,11 +340,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607001801880</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="エスケープ処理を簡易化">
+      <created>1607011633715</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607011633715</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -380,6 +398,7 @@
     <MESSAGE value="アクセサの実装漏れ" />
     <MESSAGE value="絵文字追加" />
     <MESSAGE value="冗長な記述を削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="冗長な記述を削除" />
+    <MESSAGE value="エスケープ処理を簡易化" />
+    <option name="LAST_COMMIT_MESSAGE" value="エスケープ処理を簡易化" />
   </component>
 </project>
