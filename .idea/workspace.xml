@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="エスケープ処理を簡易化">
-      <change afterPath="$PROJECT_DIR$/resources/views/items/item_buy_form.blade.php" afterDir="false" />
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="購入画面作成">
+      <change afterPath="$PROJECT_DIR$/config/payjp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ItemsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/items/item_buy_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/items/item_buy_form.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/items" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -152,11 +151,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\config" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\items" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\mypage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers\MyPage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views" />
-      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\layouts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers" />
@@ -198,7 +197,7 @@
       <workItem from="1605318295553" duration="13888000" />
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
-      <workItem from="1606921358568" duration="9795000" />
+      <workItem from="1606921358568" duration="10885000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -347,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607011633715</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="購入画面作成">
+      <created>1607142537409</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607142537409</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +405,7 @@
     <MESSAGE value="絵文字追加" />
     <MESSAGE value="冗長な記述を削除" />
     <MESSAGE value="エスケープ処理を簡易化" />
-    <option name="LAST_COMMIT_MESSAGE" value="エスケープ処理を簡易化" />
+    <MESSAGE value="購入画面作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="購入画面作成" />
   </component>
 </project>
