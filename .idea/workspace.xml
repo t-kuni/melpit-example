@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/mypage/bought_items.blade.php" afterDir="false" />
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="購入済み商品一覧画面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,15 +149,15 @@
     <property name="vcs.patch.to.clipboard" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\mypage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\config" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views\items" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers\MyPage" />
       <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\resources\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tig\Documents\melpit-workspace\melpit\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunDashboard">
