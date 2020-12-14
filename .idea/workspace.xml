@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="購入商品一覧へのリンク追加">
+    <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +199,7 @@
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
       <workItem from="1606921358568" duration="17089000" />
-      <workItem from="1607696497908" duration="8064000" />
+      <workItem from="1607696497908" duration="9955000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607560634163</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ヘッダーに売り上げ額追加">
+      <created>1607949277937</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607949277937</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +439,7 @@
     <MESSAGE value="決済フォーム実装" />
     <MESSAGE value="決済処理実装" />
     <MESSAGE value="購入商品一覧へのリンク追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="購入商品一覧へのリンク追加" />
+    <MESSAGE value="ヘッダーに売り上げ額追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="ヘッダーに売り上げ額追加" />
   </component>
 </project>
