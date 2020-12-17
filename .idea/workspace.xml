@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/items/items.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/items/items.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/mypage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -199,7 +199,8 @@
       <workItem from="1605527886940" duration="603000" />
       <workItem from="1606310970514" duration="18934000" />
       <workItem from="1606921358568" duration="17089000" />
-      <workItem from="1607696497908" duration="9955000" />
+      <workItem from="1607696497908" duration="12677000" />
+      <workItem from="1608210939436" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -383,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607949277937</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ホーム画面削除">
+      <created>1607952427894</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607952427895</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +423,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="スキャッフォルド直後" />
     <MESSAGE value="会員登録　デザイン修正" />
     <MESSAGE value="日本語対応&#10;モデルのフォルダ変更" />
     <MESSAGE value="ログイン実装" />
@@ -440,6 +447,7 @@
     <MESSAGE value="決済処理実装" />
     <MESSAGE value="購入商品一覧へのリンク追加" />
     <MESSAGE value="ヘッダーに売り上げ額追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="ヘッダーに売り上げ額追加" />
+    <MESSAGE value="ホーム画面削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="ホーム画面削除" />
   </component>
 </project>
