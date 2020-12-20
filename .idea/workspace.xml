@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bda98e6-bd65-4d81-b152-7959fbb4898d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/items/items.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/items/items.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +198,7 @@
       <workItem from="1606310970514" duration="18934000" />
       <workItem from="1606921358568" duration="17089000" />
       <workItem from="1607696497908" duration="12677000" />
-      <workItem from="1608210939436" duration="2675000" />
+      <workItem from="1608210939436" duration="9695000" />
     </task>
     <task id="LOCAL-00001" summary="スキャッフォルド直後">
       <created>1601188827881</created>
@@ -391,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607952427895</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="トップに出品ボタン追加">
+      <created>1608222529698</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608222529698</updated>
+    </task>
+    <task id="LOCAL-00029" summary="UserSeederからIDを削除">
+      <created>1608222543961</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608222543961</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,8 +435,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="会員登録　デザイン修正" />
-    <MESSAGE value="日本語対応&#10;モデルのフォルダ変更" />
     <MESSAGE value="ログイン実装" />
     <MESSAGE value="パスワードリセットリクエスト実装" />
     <MESSAGE value="パスワードリセット実装" />
@@ -448,6 +458,8 @@
     <MESSAGE value="購入商品一覧へのリンク追加" />
     <MESSAGE value="ヘッダーに売り上げ額追加" />
     <MESSAGE value="ホーム画面削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="ホーム画面削除" />
+    <MESSAGE value="トップに出品ボタン追加" />
+    <MESSAGE value="UserSeederからIDを削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserSeederからIDを削除" />
   </component>
 </project>
